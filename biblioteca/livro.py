@@ -26,7 +26,7 @@ class Livro():
 
     def get_informacoes_gerais(self):
         print(
-            f"O livro de titulo {self.__titulo} de autor {self.__autor} e isbn {self.__isbn}\
-            com ano de publicação em {self.__ano_publicacao} possui {self.numero_exemplares} número de exemplares sendo que destes \
-            {self.emprestados} estão emprestados"
+            f"""O livro de titulo {self.__titulo} de autor {self.__autor} e isbn {self.__isbn}
+            com ano de publicação em {self.__ano_publicacao} possui {self.numero_exemplares} número de exemplares sendo que destes 
+            {self.emprestados} estão emprestados"""
             )
