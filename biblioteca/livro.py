@@ -24,7 +24,13 @@ class Livro():
         self.emprestados -=1 
         print("Obrigado por Devolver o Livro")
 
+
+    @property
+    def get_title(self):
+        return self.__titulo
+    
+    
     def get_informacoes_gerais(self):
         print( f"O livro de titulo {self.__titulo} de autor {self.__autor} e isbn {self.isbn} com ano de publicação em {self.__ano_publicacao}")
-        print(f"e possui {self.numero_exemplares} número de exemplares sendo que destes  {self.emprestados} estão emprestados")
+        print(f"Possui {self.numero_exemplares} número de exemplares sendo que destes  {self.emprestados} estão emprestados")
 

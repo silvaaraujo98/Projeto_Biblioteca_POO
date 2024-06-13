@@ -31,5 +31,8 @@ class Usuario():
         else:
             print("Você não tem esse livro na sua lista de livros emprestados")
 
+    def get_cpf(self):
+        return self.__cpf
+
     def get_informacoes_gerais_usuarios(self):
-        print(f"O usuario de nome {self.__nome} possui {len(self.livros_emprestados)} emprestados")
+        print(f"O usuario de nome {self.__nome} possui {len(self.livros_emprestados)} livros emprestados")
